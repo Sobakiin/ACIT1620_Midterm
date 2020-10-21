@@ -1,3 +1,20 @@
 body{
-    background-color: cbaf87;
+    background-color: #e7c89d;
+}
+header{
+    background-color: #7e8a97;
+    color:#30475e;
+}
+.navbar{
+    text-align: center;
+    position: fixed;
+}
+a:link{
+    color:rgb(31,183,221);
+}
+a:visited{
+    color: silver;
+}
+#menu{
+
 }
