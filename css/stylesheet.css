@@ -5,9 +5,9 @@ header{
     background-color: #7e8a97;
     color:#30475e;
 }
-.navbar{
+.cntr *{
     text-align: center;
-    position: fixed;
+    display: block;
 }
 a:link{
     color:rgb(31,183,221);
@@ -16,5 +16,20 @@ a:visited{
     color: silver;
 }
 #menu{
-
+    text-align: center;
+    
+}
+#menu~ul>li{color:teal;}
+article{
+    background-color: #e7dec8;
+    
+}
+.pic{
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    height:100px;
+}
+.free{
+    clear: both;
 }
